@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Top {
+        width: 100%;
+        height: 814px;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/header.png);
+        background-size: 100% 100%;
+    }
+    .Content1 {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .Detail {
+        height: 1324px;
+        background-color: white;
+        position: relative;
+    }
+    .Content2 {
+        width: 1200px;
+        height: 100%;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .Purchase {
+        height: 1741px;
+        background-color: white;
+        position: relative;
+    }
+    .Content3 {
+        width: 1200px;
+        height: 100%;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .Recommend {
+        height: 615px;
+        background-color: red;
+    }
+    .Content4 {
+        width: 1200px;
+        height: 100%;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .Bottom {
+        height: 1013px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/dibu.png);
+        position: relative;
+
+        background-size: 100% 100%;
+    }
+    .Content5 {
+        width: 1200px;
+        height: 100%;
+        
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .Content {
+        width: 1200px;
+        height: 100%;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .top_title {
+        height: 98px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .top_word {
+        height: 232px;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/The%20best%20pen%20is%20%20just%20LAMY.png) ;
+        background-size: 100% 100%;
+        margin-top: 228px;
+    }
+
+    .top_title div {
+        font-size: 22px;
+        width: 174px;
+        height: 100%;
+        line-height: 98px;
+        text-align: center;
+        text-decoration: white;
+    }
+
+    #top_box {
+        
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%202.png);
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+    #yyy{
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/img_lamylogo.png);
+        background-size: 100% 100%;
+
+    }
+
+    .det_wel {
+        width: 1149px;
+        height: 506px;
+        /* margin-top: 67px;
+        margin-left: 50px; */
+        margin: 67px 0px 158px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: white;
+    }
+
+    .det_kinds {
+        width: 100%;
+        height: 402px;
+        background-color: black;
+    }
+
+    .button {
+        width: 240px;
+        height: 64px;
+        background-color: black;
+        margin: 60px auto 0px;
+        text-align: center;
+    }
+
+    .det_wel_img {
+        width: 420px;
+        height: 100%;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%205.png);
+    }
+
+    .det_wel_word {
+        width: 660px;
+        height: 348px;
+        background-color: white;
+    }
+    .title1{
+        width: 300px;
+        height: 40px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/Welcome%20to%20Lamy.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:40px;
+        left: 490px;
+    }
+
+    .det_wel_video {
+        width: 365px;
+        height: 240px;
+        position: absolute;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/按钮.png);
+        left: 117px;
+        top: 330px;
+    }
+
+    .det_kinds_title {
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        position: relative;
+    }
+
+    .det_kinds_word {
+        height: 252px;
+        width: 100%;
+        background-color:white;
+        display: flex;
+    }
+    .left{
+        width:33.3% ;
+        height: 252px ;
+        text-decoration: 19px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .right{
+        width:33.3%;
+        height: 252px;
+        text-decoration: 19px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .mid{
+        height:252px;
+        width: 33.3%;
+        text-decoration: 19px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .pur_pen {
+        height: 389px;
+        background-color: green;
+        position: relative;
+    }
+
+    .pur_pen :nth-child(1) {
+        height: 217px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/111.png);
+    }
+
+    .pur_pen :nth-child(2) {
+        
+        height: 217px;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/111.png);
+        
+        
+        
+    }
+
+    .pur_pen :nth-child(3) {
+        height: 36px;
+        width: 91px;
+        background-color: red;
+        position: absolute;
+        top: 197px;
+        left: 40px;
+        line-height: 36px;
+    }
+
+    .pur_card {
+        width: 812px;
+        height: 370px;
+        margin: 60px auto;
+        position: relative;
+    }
+
+    .pur_showimg {
+        width: 883px;
+        height: 650px;
+        background-color: pink;
+        margin: 0 auto;
+    }
+
+    .pur_card_title {
+        height: 102px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/.dj.png);
+        background-size: 100% 100%;
+        margin:0 auto;
+    }
+
+    .pur_card_box {
+        width: 814px;
+        height: 271px;
+        border: solid;
+        border-color: black;
+    }
+
+    .pur_card_box div {
+        width: 73px;
+        height: 73px;
+        background: white;
+        background-color: black;
+        margin: 0 auto;
+        border-radius: 73px;
+    }
+
+    .pur_showimg_title {
+        height: 100px;
+        background-color: red;
+    }
+
+    .pur_showimg_box {
+        width: 881px;
+        height: 546px;
+        background-color: blue;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pur_showimg_cloum {
+        width: 250px;
+        height: 545px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #pur_img1 {
+        height: 221px;
+        background-color: orange;
+    }
+
+    #pur_img2 {
+        height: 299px;
+        background-color: pink;
+    }
+
+    #pur_img3 {
+        height: 365px;
+        background-color: green;
+    }
+
+    #pur_img4 {
+        height: 170px;
+        background-color: black;
+    }
+
+    #pur_img5 {
+        height: 221px;
+        background-color: purple;
+    }
+
+    #pur_img6 {
+        height: 299px;
+        background-color: lawngreen;
+    }
+    p{
+        font-size: 25px;
+        color: black;
+        font-style: 宋体;
+    }
+    .hui{
+        height: 444px;
+        width: 100%;
+        position: absolute;
+        top:20px;
+        left:0;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%203.png);
+        background-size: 100% 100%;
+    }
+    .anniu{
+        width: 60px;
+        height: 60px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E6%92%AD%E6%94%BE.png);
+        background-size: 100%;
+        position:absolute ;
+        top:50%;
+        left:50%;
+        margin: -30px 0 0 -30px;
+    }
+    .title2{
+        width: 298px;
+        height: 42px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/LAMY%E5%90%84%E7%B3%BB%E5%88%97.png);
+        background-size: 100%;
+        position: absolute;
+        left:50%;
+        margin:0 0 0 -149px;
+    }
+    a{
+        color: white;
+        font-size: 24px;
+        line-height: 64px;
+    }
+    i{
+        color:white;
+        line-height: 36px;
+    }
+    .pen2{
+        width: 1200px;
+        height: 217px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/222.png);
+    }
+    .bibeijing{
+        width:100%;
+        height: 435px;
+        background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%203.png);
+        background-size: 100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .huibeijing{
+        width: 100%;
+        height: 349px;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2010.png);
+        background-size: 100%;
+        position:absolute;
+        top:435px;
+        left:0px;
+    }
+    .DBbeijing{
+        width: 100%;
+        height:;
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/dibu.png);
+        background-size: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .lamy{
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/LAMY.png);
+        width: 310px;
+        height: 75px;
+        background-size: 100% 100%;
+        position: absolute;
+        top:300px;
+        left:1400px;
+    }
+    .xiayi{
+        position: absolute;
+        top:200px;
+        background: white;
+    }
+    .hei{
+        background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2010.png);
+        height: 300px;
+        width:100%;
+        background-size: 100%;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="Top">
+            <div class="Content1">
+                <div class="top_title">
+                    <div style="color: white;">新品推荐</div>
+                    <div style="color: white;">购买产品</div>
+                    <div id="top_box"><div id="yyy"></div></div>
+                    <div style="color: white;">企业礼包</div>
+                    <div style="color: white;">品牌介绍</div>
+                </div>
+                <div class="top_word"></div>
+            </div>
+        </div>
+        <div class="Detail">
+            <div class="hui"></div>
+            <div class="Content2">
+                <div class="det_wel">
+                    <div class="det_wel_img"></div>
+                    <div class="det_wel_word">
+                        <div class="title1"></div>
+                        <p >德国书写工具品牌LAMY始创人C•Josef Lamy于1930年在海德
+                        堡创立了欧瑟斯墨水笔制造厂.1952年，崭露头角的LAMY 流线型墨水笔，震撼问世, 彰显公司的创新敏锐触觉。1966年终于打</p><br><br><br>
+                        <p >造出令人耳目一新的现代经典之作-LAMY 2000系列。产品撮合
+                        了聚碳酸酯与不锈钢材质，绝妙的配搭，使之从芸芸众生的书写
+                        工具中脱颖而出，时至今日，依然在市场具有影响力。</p>
+                    </div>
+                    <div class="det_wel_video">
+                        <div class="anniu"></div>
+                    </div>
+                </div>
+                <div class="det_kinds">
+                    <div class="det_kinds_title">
+                        <div class="title2"></div>
+                    </div>
+                    <div class="det_kinds_word">
+                        <div class="left">【恒星系列 墨水笔 】<br>LAMY 恒星系列延续了 LAMY
+                        的时尚造型，打造出锦上添花的极致品质
+                        。此系列全部均由氧化
+                        独特的凹陷式笔握以及弹性铜线笔夹
+                        富的颜色让 LAMY 恒星系列突破了传统
+                        散发着无限的青春魅力。</div>
+                        <div class="mid">【狩猎系列限量色墨水笔 】<br>色彩丰富，颜色亮丽，不仅是可以作为书
+                        写工具，同样是很好的装饰品
+                        宽大的笔夹设计，可随时夹在包带、牛仔裤、
+                        T恤袖口上，让您感受创意方便的携带方式
+                        笔身通体材质采用车用强力ABS材料</div>
+                        <div class="right">【喜悦系列美术笔 】<br>用以绘图、写艺术字、艺术签名
+                        扁平状的笔尖设计，适合书写艺术字
+                        立体感极佳.1、1.5、1.9三种笔尖可供选择
+                        ，可书写粗细不等的立体字，让您随时
+                        感受变化的乐趣复古的笔杆设计
+                        ，经典又与众不同，显示出独特的欣赏品味</div>
+                    </div>
+                </div>
+                <div class="button"><a>了解详情 》》</a></div>
+            </div>
+        </div>
+        <div class="Purchase">
+            <div class="bibeijing"></div>
+            <div class="Content3">
+                <div class="pur_pen">
+                    <div class="pen1"></div>
+                    <div class="3"><i>LAMY</i></div>
+                    <div class="pen2"></div>
+                </div>
+                <div class="hei">
+                    <div class="pur_card">
+                        <div class="xiayi">使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种
+                            材质，也足以成就出这款永恒的设计。产品本身是体现不同加工程序和
+                            制造工艺。手工打磨的亚光拉丝表面充分体现了品牌对细节的注重。</div>
+                        <div class="pur_card_title"></div>
+                        <div class="pur_card_box"></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="pur_showimg">
+                    <div class="pur_showimg_title"></div>
+                    <div class="pur_showimg_box">
+                        <div class="pur_showimg_cloum">
+                            <div id="pur_img1"></div>
+                            <div id="pur_img2"></div>
+                        </div>
+                        <div class="pur_showimg_cloum">
+                            <div id="pur_img3"></div>
+                            <div id="pur_img4"></div>
+                        </div>
+                        <div class="pur_showimg_cloum">
+                            <div id="pur_img5"></div>
+                            <div id="pur_img6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button"></div>
+            </div>
+        </div>
+        <div class="Recommend">
+            <div class="Content4"></div>
+        </div>
+        <div class="Bottom">
+           <div class="lamy"></div>
+        </div>
+</body>
+
+</html>
