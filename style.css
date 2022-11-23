@@ -1,0 +1,567 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,
+p,textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+ol,ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.Header {
+    width: 100%;
+    height: 814px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/header.png);
+    background-size: 100% 100%;
+}
+
+.Content1 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Detail {
+    height: 1324px;
+    background-color: white;
+    position: relative;
+}
+
+.Content2 {
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Show {
+    height: 1741px;
+    background-color: white;
+    position: relative;
+}
+
+.Content3 {
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Recommend {
+    height: 615px;
+    background-color:white;
+    width: 100%;
+}
+
+.rem_back{
+    height: 340px;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+.kinds{
+    width: 877px;
+    height: 435px;
+    background: white;
+    position: absolute;
+    top:90px;
+    left:150px;
+    border: grey solid;
+}
+
+.kind1{
+    height:118px ;
+    width:377px ;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/0230ac71b7bd3abcaa8d479e9196cdee.png);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.t1{
+    font-size: 15px;
+    text-decoration: black;
+    height: 118px;
+    width: 377px;
+    position: absolute;
+    top:10px;
+    left: 400px;
+    word-spacing: 5px;
+}
+.t2{
+    font-size: 15px;
+    text-decoration: black;
+    height: 118px;
+    width: 377px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    word-spacing: 5px;
+}
+.t3{
+    font-size: 15px;
+    text-decoration: black;
+    height: 118px;
+    width: 377px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    word-spacing: 5px;
+}
+.kind2{
+    height: 118px;
+    width: 377px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/c709a77f7264b7a03b926a162ed2126a.png);
+    position: absolute;
+    top:158px;
+    left:20px ;
+}
+
+.kind3{
+    height: 118px;
+    width: 377px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/a759229c3ba7c2bbf1ac6fc9289572cb.png) ;
+    position: absolute;
+    top: 296px;
+    left: 20px;
+}
+.button1{
+    width: 202px;
+    height: 60px;
+    background: black;
+    position: absolute;
+    top: 500px;
+    left:1400px;
+}
+.Content4 {
+    width: 1200px;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Bottom {
+    height: 1013px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/dibu.png);
+    position: relative;
+
+    background-size: 100% 100%;
+}
+
+.Content5 {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Content {
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header_title {
+    height: 98px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_word {
+    height: 232px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/The%20best%20pen%20is%20%20just%20LAMY.png);
+    background-size: 100% 100%;
+    margin-top: 228px;
+}
+
+.header_title div {
+    font-size: 22px;
+    width: 174px;
+    height: 100%;
+    line-height: 98px;
+    text-align: center;
+    text-decoration: white;
+}
+
+#header_box {
+
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%202.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+#yyy {
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/img_lamylogo.png);
+    background-size: 100% 100%;
+
+}
+
+.det_wel {
+    width: 1149px;
+    height: 506px;
+    margin: 67px 0px 158px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.det_kinds {
+    width: 100%;
+    height: 402px;
+    background-color: black;
+}
+
+.button {
+    width: 240px;
+    height: 64px;
+    background-color:black;
+    margin: 60px auto 0px;
+    text-align: center;
+}
+
+m{
+    color: white;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.det_wel_img {
+    width: 420px;
+    height: 100%;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%205.png);
+}
+
+.det_wel_word {
+    width: 660px;
+    height: 348px;
+    background-color: white;
+}
+
+.title1 {
+    width: 300px;
+    height: 40px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/Welcome%20to%20Lamy.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 40px;
+    left: 490px;
+}
+
+.det_wel_video {
+    width: 365px;
+    height: 240px;
+    position: absolute;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/按钮.png);
+    left: 117px;
+    top: 330px;
+}
+
+.det_kinds_title {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: relative;
+}
+
+.det_kinds_word {
+    height: 252px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.left {
+    width: 33.3%;
+    height: 252px;
+    text-decoration: 19px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.right {
+    width: 33.3%;
+    height: 252px;
+    text-decoration: 19px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mid {
+    height: 252px;
+    width: 33.3%;
+    text-decoration: 19px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.show_pen {
+    height: 389px;
+    background-color: green;
+    position: relative;
+}
+
+.show_pen :nth-child(1) {
+    height: 217px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/111.png);
+}
+
+.show_pen :nth-child(2) {
+
+    height: 217px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/111.png);
+
+
+
+}
+
+.show_pen :nth-child(3) {
+    height: 36px;
+    width: 91px;
+    background-color: red;
+    position: absolute;
+    top: 197px;
+    left: 40px;
+    line-height: 36px;
+}
+
+span {
+    color: black;
+    line-height: 36px;
+    position: absolute;
+    top:200px;
+    left:45px;
+    float: inline-end;
+}
+
+.bibeijing {
+    width: 100%;
+    height: 435px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%203.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hei {
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2010.png);
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+    position: absolute;
+    top:440px;
+    left:0px;
+}
+
+.show_card {
+    width: 812px;
+    height: 370px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.show_showimg {
+    width: 883px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.show_card_title {
+    height: 102px;
+    width: 300px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/.dj.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.xiayi {
+    position: absolute;
+    top: 240px;
+    left:150px;
+    font-size: 17px ;
+}
+
+.show_card_box {
+    width: 814px;
+    height: 271px;
+    border: solid;
+    border-color:grey;
+    background-color: white;
+}
+
+.show_showimg_title {
+    height: 100px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E7%94%BB%E6%9D%BF%201.png);
+}
+
+.photo{
+    width: 72px;
+    height: 72px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/IMG_20180210_144432.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border-radius: 72px;
+}
+.show_showimg_box {
+    width: 881px;
+    height: 546px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show_showimg1{
+    width: 250px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img1 {
+    height: 221px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/u=3968571395,2372439321&fm=27&gp=0.png);
+}
+
+.img2 {
+    height: 299px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/OgfkOenS7NfO.png);
+}
+
+.img3 {
+    height: 365px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/LAMY_joy.png);
+}
+
+.img4 {
+    height: 170px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/5607d2c6d46d4db38722a3e03254de32.png) ;
+}
+
+.img5 {
+    height: 221px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/u=3725517664,3071040087&fm=27&gp=0.png) ;
+}
+
+.img6 {
+    height: 299px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/053a74e10bb650f5a2a11aaabc08422f.png);
+}
+
+p {
+    font-size: 25px;
+    color: black;
+    font-style: 宋体;
+}
+
+.hui {
+    height: 444px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%203.png);
+    background-size: 100% 100%;
+}
+
+.anniu {
+    width: 60px;
+    height: 60px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E6%92%AD%E6%94%BE.png);
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+}
+
+.title2 {
+    width: 298px;
+    height: 42px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/LAMY%E5%90%84%E7%B3%BB%E5%88%97.png);
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -149px;
+}
+
+a {
+    color: white;
+    font-size: 24px;
+    line-height: 64px;
+}
+
+
+
+.pen2 {
+    width: 1200px;
+    height: 217px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/222.png);
+}
+
+
+
+.huibeijing {
+    width: 100%;
+    height: 349px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2010.png);
+    background-size: 100%;
+    position: absolute;
+    top: 435px;
+    left: 0px;
+}
+
+.DBbeijing {
+    width: 100%;
+    height: ;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/dibu.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lamy {
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/LAMY.png);
+    width: 310px;
+    height: 75px;
+    background-size: 100% 100%;
+    position: absolute;
+    top:100px;
+    left: 450px;
+}
+
+
+
+
