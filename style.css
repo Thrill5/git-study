@@ -1,0 +1,133 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+a,
+p,
+textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+
+}
+
+img {
+    border: none;
+    display: block;
+}
+.all{
+    width: 600px;
+    height: 1060px;
+    background: url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/Background.png);
+    margin: auto;
+}
+.header{
+    width: 600px;
+    height: 114px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    position: relative;
+    top: 31px;
+}
+.img1{
+    width: 48px;
+    height: 48px;
+    color: red;
+}
+.img2{
+    width: 112px;
+    height: 34px;
+    color: aqua;
+}
+.img3{
+    width: 48px;
+    height: 48px;
+    color: black;
+}
+.show{
+    width: 600px;
+    height: 244px;
+    color: blue;
+    position: relative;
+}
+.img4{
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -75px;
+}
+.content{
+    width: 446px;
+    height: 315px;
+    margin: 0 auto;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+a{
+    width: 430px;
+    height: 53px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 0;
+    border-bottom: solid white;
+}
+.enter{
+    width: 600px;
+    height: 440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button{
+    width: 444px;
+    height: 76px;
+    border-radius: 28px 28px;
+    background:url(https://aaaaaabc.oss-cn-beijing.aliyuncs.com/Shape%2012%20copy%202.png) ;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    text-decoration: white;
+    font-size: 20px;
+}
+input{
+    background-color: none;
+    border-image: auto;
+    padding-left: 5px;
+}
